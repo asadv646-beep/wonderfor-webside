@@ -1,0 +1,2504 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <link rel="stylesheet" type="text/css" href="css/index.css"> -->
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+	<style>
+      @font-face {
+          font-family: 'windsor_bt';
+          src: url('https://cdn.shopify.com/s/files/1/0697/5291/4141/files/windsor_bt-webfont.woff2?v=1753277276') format('woff2'),
+               url('https://cdn.shopify.com/s/files/1/0697/5291/4141/files/windsor_bt-webfont.woff?v=1753277276') format('woff');
+          font-weight: normal;
+          font-style: normal;
+      
+      }
+
+
+
+
+      *{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.header{
+	position: relative;
+}
+
+.header-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	width: 100%;
+	height: 36px;
+	background: rgba(0, 0, 0, 1);
+}
+
+.header-1 p{
+	color: white;
+	font-weight: 500;
+	font-size: 15px;
+	font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.header-2{
+  width: 100%;
+  height: 62px;
+  background: rgba(251, 243, 216, 1);
+}
+
+.header-2 img{
+	position: absolute;
+	top: 46px;
+	left: 60.77px;
+	width: 159.45594787597656px;
+	height: 42px;
+}
+
+.header-3{
+	cursor: pointer;
+}
+
+.navbar {
+  position: absolute;
+  top: 55px;
+  left: 357px;
+  width: 725px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 29px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  position: relative; 
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.navbar a:hover:not(.sub-container a) {
+  color: blue;
+}
+
+.sub-container {
+  display: none;
+  position: absolute;
+  top: 37px;
+  left: -60px;
+  width: 850px;
+  background: rgba(255, 246, 215, 1);
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+  z-index: 10;
+  flex-direction: column;
+}
+
+.navbar ul li:hover .sub-container {
+  display: flex;
+}
+
+
+.nav {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-left: 120px;
+}
+
+.nav a {
+  background: white;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  font-family: 'windsor_bt', sans-serif;
+}
+
+.nav a:hover,
+.nav a:focus {
+  background: rgba(255, 215, 60, 1);
+}
+
+
+.box {
+  display: flex;
+  gap: 19px;
+  flex-wrap: wrap;
+}
+
+.part-1 {
+  width: 180px;
+  margin-top: 20px;
+  margin-left: 8px;
+}
+
+.part-1 h3 {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 10px;
+  font-family: 'windsor_bt', sans-serif;
+}
+
+
+.hv-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.hv-btn button {
+  width: 172px;
+  height: 46px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  background: white;
+  transition: 0.2s ease-in;
+  color: black;
+  margin: 20px 0 0 0;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.hv-btn button:hover {
+  background: black;
+  color: white;
+}
+
+
+.header-3{
+	position: absolute;
+	width: 198.19412231445312px;
+	height: 28.213476181030273px;
+	top: 56px;
+	left: 1152px;
+	box-sizing: border-box;
+}
+
+.header-3 .p-c{
+	width: 83.57874298095703px;
+	height: 20px;
+}
+
+.header-3 img{
+	width: 24px;
+	height: 24px;
+}
+
+.container{
+	position: relative;
+	width: 100%;
+	height: 667px;
+	background: rgba(255, 215, 60, 1);
+}
+
+.paragraph{
+	position: absolute;
+	width: 597px;
+	height: 236px;
+	top: 138px;
+	left: 61px;
+  float: left;
+  font-family: 'windsor_bt', sans-serif;
+}
+
+.paragraph h1{
+	font-size: 54px;
+	font-weight: 400;
+	letter-spacing: -5px;
+}
+
+.lins{
+	position: absolute;
+	width: 445px;
+	height: 173px;
+	top: 416px;
+	left: 61px;
+	gap: 26px;
+}
+
+.lins ul{	 
+  list-style: none; 
+  list-style-image: url("../images/tick.png");
+  background-size: 16px;
+  margin-left: 20px;
+}
+
+.lins li{
+	margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.lins li strong{
+	color: blue;
+	font-weight: 600;
+    font-size: 18px;
+}
+
+.btn{
+   position: relative;
+   top: 15px;
+   right: 40px;
+   width: 172px;
+	height: 52px;
+}
+
+
+.btn button{
+	position: absolute;
+	top: 500px;
+	right: 24px;
+	bottom: 16px;
+	left: 102px;
+	width: 172px;
+	height: 52px;
+	border-radius: 10px;
+	gap: 11px;
+	background: rgba(31, 18, 210, 1);	
+	border: none;
+	transition: 0.2s ease-in;
+}
+
+.btn button h2{
+	font-size: 17px;
+	font-weight: 700;
+	color: white;
+	margin-right: 40px;
+	margin-bottom: 5px;
+	font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.btn button:hover{
+	background: black;
+}
+
+.btn img{
+	position: absolute;
+	top: 505px;
+	right: 24px;
+	bottom: 16px;
+	height: 40px;
+	width: 40px;
+	left: 230px;
+}
+
+.images{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.images-2{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.footer{
+	position: absolute;
+	bottom: -90px;
+	width: 100%;
+	height: 90px;
+	background: #FBF3D8;
+	box-sizing: border-box;
+	display: flex;
+	gap: 5px;
+	align-items: center;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.ftr-1{
+	display: flex;
+	gap: 5px;
+	width: 400px;
+	margin-left: 20px;
+}
+
+
+.ftr-1 h2{
+	margin-top: 8px;
+	font-weight: 400;
+	font-family: 'windsor_bt', sans-serif;
+}
+
+.ftr-1 img{
+   width: 40px;
+   height: 40px;
+}
+
+
+.pag-2{	
+	width: 100%;
+	height: 1220px;
+	background: rgba(255, 246, 215, 1);
+}
+
+.pg-titel{	
+	position: relative;
+	top: 170px;
+	left: 230px;
+	padding: 5px 40px;
+	box-sizing: border-box;
+	width: 842px;
+	height: 225px;
+}
+
+.pg-titel h2{
+	text-align: center;
+	color: black;
+	font-weight: 500;
+	font-size: 48px;
+	font-family: 'windsor_bt', sans-serif;
+}
+
+.pg-btn{
+	position: absolute;
+	bottom: -5px;
+	left: 300px;
+  width: 275px;
+	height: 75px;
+	border: 1px solid black;
+	border-radius: 50px;
+	padding: 5px;
+	box-sizing: border-box;
+	display: flex;
+	gap: 5px;             
+  align-items: center;
+  justify-content: center;  
+}
+
+.pg-btn a{
+	text-decoration: none;
+	color: black;
+	width: 130px;
+	height: 65px;
+	border-radius: 50px 50px 50px 50px;
+	text-align: center;
+	align-content: center;
+	box-sizing: border-box;
+	
+}
+
+.pg-btn a p{
+	font-weight: 400;
+	font-size: 18px;
+	font-family: 'windsor_bt', sans-serif;
+}
+
+.pg-btn a:hover{
+	background: rgba(255, 215, 60, 1);
+}
+
+.pg-btn a:focus{
+	background: rgba(255, 215, 60, 1);
+}
+
+.pg-box{
+	position: relative;
+	display: flex;
+	top: 190px;
+	left: 65px;
+	width: 1214px;
+	height: 587px;
+	gap: 21px;
+	margin-top: 40px;
+}
+
+.pg-1{
+	width: 392px;
+	height: 587px;
+}	
+
+.pg-pic{
+	width: 392px;
+	height: 381px;
+	border-radius: 23px;
+	background: rgba(255, 255, 255, 1);
+}
+
+.pg-pic img{
+	margin-top: 7px;
+	margin-left: 11px;
+	margin-right: 3px;
+}
+
+.pg-pic h3{
+	float: left;
+	margin-left: 13px;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.pg-pic h3 img{
+   position: relative;
+   top: 5px;
+}
+
+
+.pg-data{
+	width: 350px;
+	height: 185px;
+	margin-top: 18px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pg-data h2{
+	width: 350px;
+	height: 28px;
+	font-weight: 400;
+	font-size: 28px;
+	font-family: 'windsor_bt', sans-serif;
+}
+
+.pg-data p{
+	width: 350px;
+	height: 48px;
+	margin-top: 10px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.pg-data img{
+	margin-top: 5px;
+	margin-right: 200px;
+}
+
+.pg-data h1{
+	float: left;
+	width: 100px;
+	height: 47px;
+	margin-top: 28px;
+	font-weight: 900;
+	font-size: 31px;
+	font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.pg-data button{
+	float: right;
+	width: 216px;
+	height: 46px;
+	margin-top: 26px;
+	background: rgba(31, 18, 210, 1);
+	border-radius: 10px;
+	border: none;
+	transition: 0.2s ease-in;
+}
+
+.pg-data button h3{
+	color: white;
+	font-size: 17px;
+	font-weight: 600;
+	font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.pg-data button:hover{
+	background: black;
+}
+
+.pg-button {
+	position: relative;
+	justify-content: center;
+	width: 350px;
+	height: 58px;
+	top: 250px;
+	left: 39%;
+	border-radius: 50px 50px 50px 50px; 
+	background: rgba(255, 216, 57, 1);
+	border: none;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 50px;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  transition: 0.2s ease-in;
+}
+
+.pg-button:hover{
+	background: black;
+	color: white;
+	font-weight: 500;
+}
+
+
+.pg-3{
+	position: relative;
+	width: 100%;
+	height: 1000px;
+  background: rgba(255, 246, 215, 1);
+  box-sizing: border-box;
+  
+}
+
+.pg-3-container{
+	position: absolute;
+	width: 100%;
+	height: 858px;
+	box-sizing: border-box;
+	background: rgba(255, 246, 215, 1);
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+  top: 50px;
+  overflow: hidden;
+  
+}
+
+.pic-man3 img{
+	position: absolute;
+	top: 0;
+	right: 0;
+  border-left: 1px solid black;
+}
+
+.titel-pg3 h1{
+	position: absolute;
+	width: 432px;
+	height: 62px;
+	top: 78px;
+	left: 61px;
+	font-weight: 400;
+	font-size: 44px;
+	font-family: 'windsor_bt', sans-serif;
+}
+
+.titel-pg3 p{
+	position: absolute;
+	width: 536px;
+	height: 72px;
+	top: 160px;
+	left: 66px;
+	font-weight: 500;
+	line-height: 24px;
+	font-size: 16px;
+	font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.p-h4 p{
+	position: relative;
+	top: 390px;
+	width: 508px;
+	height: 27px;
+	font-weight: 700;
+	font-size: 21px;
+	border-top: 1px solid black;
+	padding: 30px  60px;
+	transition: 0.2s ease-in;
+	font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.befor-pg3 h4 {
+	font-weight: 500;
+	font-size: 14px;
+  display: block;
+  position: absolute;
+  top: 430px;
+  left: -100%;
+  transition: 0.3s ease;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.befor-pg3 p:hover + h4 {
+  left: 63px;
+}
+
+
+
+.befor-pg3 p:hover{
+	transform: translateY(-30px);
+
+}
+
+
+.first-word{
+	color: rgba(0, 0, 0, 1);
+	font-weight: 400;
+	font-size: 18px;
+	font-family: Plus Jakarta Sans;
+	margin-right: 10px;
+}
+
+.pag-4{
+	width: 100%;
+	height: 800px;
+	box-sizing: border-box;
+	background: rgba(255, 246, 215, 1);
+}
+
+.stor-logo img{
+   width: 1300px;
+   margin-left: 20px;
+}
+
+.container-pg4{
+	position: relative;
+	display: flex;
+	width: 1086.5089111328125px;
+	height: 519px;
+	top: 70px;
+	left: 179.25px;
+}
+
+.container-pg4 img:not([alt="girl-1"]) {
+  position: absolute;
+  top: 63.72px;
+  left: 267.35px;
+}
+
+.container-pg4 .paper{
+  position: absolute;
+  top: 40px;
+  border-radius: 20px;
+  right: -20px;
+	width: 492px;
+	height: 470px;
+	background: rgba(255, 255, 255, 1);
+	padding: 25px;
+	box-sizing: border-box;
+}
+
+.paper h2{
+	width: 393px;
+	height: 66px;
+	position: relative;
+	top: 20px;
+	font-size: 24px;
+	font-weight: 400;
+	font-family: 'windsor_bt', sans-serif;
+}
+
+.paper p{
+	font-family: Plus Jakarta Sans;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 27px;
+	margin-top: px;
+}
+
+.paper h3{
+	font-size: 22px;
+	font-weight: 500;
+	font-family: 'windsor_bt', sans-serif;
+	margin-top: 30px;
+}
+
+ .p-2{
+	margin-top: 15px;
+}
+
+
+.paper img[alt="stan"] {
+  position: relative;
+  left: 0;
+  top: 7px;
+}
+
+.paper span{
+	font-family: Plus Jakarta Sans;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 27px;
+	margin-top: 30px;
+	display: block;
+	color: gray;
+}
+
+
+.pag-5 {
+  width: 100%;
+  height: 954px;
+  background: rgba(255, 215, 60, 1);
+  box-sizing: border-box;
+}
+
+.container-pg5 {
+  position: relative;
+  width: 720px;
+  height: 632px;
+  top: 86px;
+  left: 360px;
+}
+
+.container-pg5 h1 {
+  font-size: 48px;
+  font-weight: 500;
+  font-family: 'windsor_bt', sans-serif;
+  text-align: center;
+}
+
+.tabel-pg5 {
+  position: relative;
+  width: 740px;
+  height: 433px;
+  top: 50px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.compare-table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 5px;
+  vertical-align: top;
+}
+
+th {
+  width: 70%;
+  font-family: 'windsor_bt', sans-serif;
+}
+
+td {
+  width: 12%;
+  font-family: 'windsor_bt', sans-serif;
+}
+
+.table-heading {
+  font-weight: 700;
+  font-size: 21px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-align: start;
+  padding: 20px 15px;
+  border-bottom: 1px solid black;
+}
+
+.data-yes {
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px 15px;
+  background: white;
+}
+
+tr:first-child .data-yes {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+tr:last-child .data-yes {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.data-no{
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px 15px;
+  border-bottom: 1px solid black;
+}
+
+.data-no-bdr{
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px 15px;
+  
+}
+
+
+.btn-pg5 button {
+  position: relative;
+  top: 255px;
+  left: 260px;
+  width: 224px;
+  height: 71px;
+  border-radius: 40px 40px 40px 40px;
+  text-align: center;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: Plus Jakarta Sans, sans-serif;
+  transition: 0.2s ease-in;
+}
+
+.btn-pg5 button:hover {
+  background: blue;
+  color: white;
+  font-weight: 700;
+}
+
+
+.pag-6{
+	width: 100%;
+	height: 780px;
+	background: rgba(255, 246, 215, 1);
+}
+
+.container-pg6{
+	position: relative;
+	width: 1200px;
+	height: 660px;
+	box-sizing: border-box;
+  top: 80px;
+  left: 85px;
+}
+
+.container-pg6 h1{
+	text-align: center;
+	font-size: 48px;
+	font-weight: 400;
+	font-family: 'windsor_bt', sans-serif;
+}
+
+.videos{
+	position: absolute;
+  display: flex;
+	gap: 10px;
+	top: 185px;
+	width: 100%;
+	height: 473px;
+	margin-top: 18px;
+	box-sizing: border-box;
+  
+}
+
+.videos video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.videos .vd-1{
+	width: 320px;
+	height: 467px;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.vd-1 .p-1{
+	width: 99%;
+	height: 396px;
+}
+
+.vd-1 .p-2{
+	width: 99%;
+	height: 66px;
+	background: white;
+	text-align: center;
+	align-content: center;
+	font-size: 21px;
+	font-weight: 400;
+	font-family: 'windsor_bt', sans-serif;
+	margin: 0;
+}
+
+.pag-7{
+	width: 100%;
+	height: 619px;
+	background: rgba(31, 18, 210, 1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container-pg7{
+	width: 1304px;
+	min-height: 446px;
+}
+
+.titels-pg7{
+	width: 1171px;
+	height: 240px;
+	margin: 0 auto;
+	padding: 20px;
+	box-sizing: border-box;
+
+}
+
+.titels-pg7 h2{
+	font-weight: 400;
+	font-size: 48px;
+	color: white;
+	font-family: 'windsor_bt', sans-serif;
+	text-align: center;
+}
+
+.titels-pg7 p{
+	font-weight: 400;
+	font-size: 18px;
+	color: white;
+	font-family: Plus Jakarta Sans, sans-serif;
+	text-align: justify;
+	text-align-last: center;
+	margin-top: 40px;
+}
+
+.logo-pg7{
+	display: flex;
+	width: 1200px;
+	min-height: 150.22215270996094px;
+	gap: 31px;
+	box-sizing: border-box;
+	position: relative;
+	margin:66px auto 0 auto;
+	box-sizing: border-box;
+	
+}
+
+.p-img{
+  min-width: 150px;
+  min-height: 147px;
+  padding: 5px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;   
+  text-align: center; 
+}
+
+.p-img p{
+	font-weight: 400;
+	font-size: 18px;
+	font-family: Plus Jakarta Sans, sans-serif;
+	color: white;
+	margin-top: 5px;
+} 
+
+.pag-8{
+	width: 100%;
+	height: 800px;
+	padding: 70px 0;
+	background: rgba(255, 246, 215, 1);
+	background-image: url(../images/Rectangle.png);
+	background-repeat: no-repeat;   
+  background-position: center;
+}
+
+.pag-8 h2{
+	font-weight: 400;
+	font-size: 48px;
+	font-family: 'windsor_bt', sans-serif;
+	text-align: center;
+}
+
+.container-pg8{
+	position: relative;
+	width: 1233px;
+	height: 661px;
+	margin: 92px auto;
+	box-sizing: border-box;
+}
+
+.data-pg8{
+	position: absolute;
+	width: 255px;
+	height: 70px;
+	border: 2px solid black;
+	border-radius: 40px;
+	padding: 3px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	background: white;
+}
+
+.data-pg8:nth-child(1){
+	left: 130px;
+	top: 20px;
+}
+
+.data-pg8:nth-child(2){
+	left: 70px;
+	top: 140px;
+}
+
+.data-pg8:nth-child(3){
+	left: 90px;
+	top: 280px;
+}
+
+.data-pg8:nth-child(4){
+	left: 140px;
+	top: 400px;
+}
+
+.data-pg8:nth-child(5){
+	right: 160px;
+	top: 20px;
+}
+
+.data-pg8:nth-child(6){
+	right: 100px;
+	top: 140px;
+}
+
+.data-pg8:nth-child(7){
+	right: 170px;
+	top: 400px;
+}
+
+.data-pg8:nth-child(8){
+	right: 120px;
+	top: 280px;
+}
+
+
+.container-pg8 img{
+	width: 70px;
+	height: 70px;
+}
+
+.container-pg8 p{
+	font-weight: 600;
+	font-size: 16px;
+	font-family: Plus Jakarta Sans, sans-serif; 
+}
+
+.button-pg8{
+	position: absolute;
+	top: 544px;
+	left: 45%;
+	width: 110px;
+  height: 17px;
+  border-radius: 35px 35px 35px 35px;
+  border: none;
+  background: blue;       
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 32px;    
+  gap: 10px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  
+}
+
+.button-pg8 a{
+	font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;        
+  font-size: 16px;
+  line-height: 48px;
+  text-transform: capitalize;
+  text-decoration: none;   
+  color: white;    
+}
+
+
+.button-pg8:hover{
+	background: black;
+}
+
+.pag-9{
+	width: 100%;
+	height: 837px;
+	background: rgba(255, 255, 255, 1);
+	padding: 80px 55px;
+	box-sizing: border-box;
+}
+
+.pag-9 h2{
+	font-size: 48px;
+	font-weight: 400;
+	font-family: 'windsor_bt', sans-serif;
+	text-align: center;
+}
+
+
+.navbar-pg9{
+	width: 100%;
+	align-items: center;
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.navbar-pg9 a{
+	width: auto;
+	font-weight: 500;
+	font-size: 15px;
+	font-family: "Plus Jakarta Sans", sans-serif;
+	text-decoration: none;
+	color: black;
+	background: rgba(245, 245, 245, 1);
+	padding: 10px 20px;
+	border-radius: 50px;
+	text-transform: capitalize;
+	transition:all 0.25s ease;
+}
+
+.navbar-pg9 a:hover{
+	color: white;
+	background: blue;
+}
+
+.data-pg9{
+	width: 100%;
+	height: auto;
+	margin-top: 40px;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.block-pg9{
+	width: 305px;
+	height: auto;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+	box-sizing: border-box;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.hover-pick{
+	position: relative;
+	width: 100%;
+	height: 270px;
+	box-sizing: border-box;
+	overflow: hidden;
+	object-fit: cover;
+}
+
+.hover-pick img{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	box-sizing: border-box;        
+  transition:all 0.5s ease; 
+}
+
+
+.hover-pick:hover .man-pick{
+	opacity: 1;
+	transform: scale(1.1);
+}
+
+.hover-pick:hover .hover-img{
+	opacity: 0;
+	transform: scale(1);
+}
+
+.block-data{
+	position: relative;
+	width: 100%;
+	height: 154px;
+	padding: 7px;
+	box-sizing: border-box;
+ 
+}
+
+.block-data h3{
+	font-weight: 400;
+	font-size: 18px;	
+	font-family: 'windsor_bt', sans-serif;
+}
+
+.block-data p{
+	width: 100%;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: "Plus Jakarta Sans", sans-serif;
+	margin-top: 5px;
+}
+
+
+.block-data h2{
+	font-weight: 400;
+	font-size: 26px;
+	text-align: start;
+	margin-top: 10px;
+	color: rgba(31, 18, 210, 1);	
+	font-family: 'windsor_bt', sans-serif;	
+}
+
+.block-data img[alt="Group-8"]{
+    position: absolute;
+    top: 30px;
+    left: 192px;
+}
+
+.button {
+	display: flex;
+	width: 144px;
+	height: 61px;
+	background: rgba(31, 18, 210, 1);
+	align-items: center;
+	justify-content: center;
+	margin: 80px auto 0 auto;
+	border-radius: 30px;
+	transition: all .2s ease;
+}
+
+.button a{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.button:hover{
+	background: yellow;
+}
+
+.button:hover a{
+	color: black;
+}
+
+.pag-10{
+	width: 100%;
+	height: 993px;
+	background: rgba(255, 215, 60, 1);
+	padding: 70px 15px;
+	box-sizing: border-box;
+}
+
+.pag-10 img[alt="5-star"]{
+	width: 157.5px;
+	height: 30px;
+	display: block;
+	margin:0 auto;
+}
+
+.pag-10 h2{
+	width: 605px;
+	height: 62px;
+	font-size: 48px;
+	font-weight: 400;
+	font-family: 'windsor_bt', sans-serif;	
+	text-align: center;
+	margin: 20px auto;
+}
+
+.pag-10 p{
+	width: 605px;
+	height: 24px;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: "Plus Jakarta Sans", sans-serif;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.conatiner-pg10{
+	width: 100%;
+	height: 551px;
+	margin-top: 40px;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 40px;
+}
+
+.block-pg10{
+	position: relative;
+	width: 357px;
+	height: 100%;
+	border: 3px solid black;
+	border-radius: 25px;
+	padding: 20px 25px;
+	box-sizing: border-box;
+	background: rgba(255, 255, 255, 1);
+}
+
+.block-pg10 img{
+	position: absolute;
+	top: 26px;
+	left: 96px;
+}
+
+.block-pg10 p{
+	position: absolute;
+	width: 305px;
+	height: 216px;
+	top: 268.84px;
+	left: 26px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	word-spacing: 1px;
+	font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.block-pg10 h3{
+	position: absolute;
+	width: 136px;
+	height: 17px;
+	top: 490px;
+	left: 110px;
+	font-weight: 400;
+	font-size: 17px;
+	font-family: 'windsor_bt', sans-serif;	
+}
+
+.block2-pg10{
+	position: relative;
+	width: 357px;
+	height: 474px;
+	border: 3px solid black;
+	border-radius: 25px;
+	padding: 20px 25px;
+	box-sizing: border-box;
+	background: rgba(255, 255, 255, 1);
+}
+
+.block3-pg10{
+	position: relative;
+	width: 357px;
+	height: 522px;
+	border: 3px solid black;
+	border-radius: 25px;
+	padding: 20px 25px;
+	box-sizing: border-box;
+	background: rgba(255, 255, 255, 1);
+}
+
+.block2-pg10 img{
+	position: absolute;
+	width: 165px;
+	height: 215px;
+	top: 26.16px;
+	left: 96px;
+}
+
+.block2-pg10 p{
+	position: absolute;
+	width: 305px;
+	height: 144px;
+	top: 269px;
+	left: 26px;
+	line-height: 20px;
+	word-spacing: 1px;
+	font-weight: 600;
+	font-size: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.block2-pg10 h3{
+	position: absolute;
+	font-weight: 400;
+	font-size: 16px;
+  top: 413px;
+  left: 106px;
+  font-family: 'windsor_bt', sans-serif;	
+}
+
+.block3-pg10 img{
+	position: absolute;
+	width: 165px;
+	height: 215px;
+	top: 26px;
+	left: 96px;
+	height: 215px;
+	
+}
+
+.block3-pg10 p{
+	position: absolute;
+	width: 305px;
+	height: 192px;
+	top: 269px;
+	left: 26px;
+	line-height: 20px;
+	word-spacing: 1px;
+	font-weight: 600;
+	font-size: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.block3-pg10 h3{
+	position: absolute;
+	font-weight: 400;
+	font-size: 16px;
+  top: 465px;
+  left: 113px;
+  font-family: 'windsor_bt', sans-serif;
+  text-align: center;	
+}
+
+.pg10-footer{
+	color: white;
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+  gap: 3px;
+}
+
+.pg10-footer img{
+	color: white;
+}
+
+
+.pg10-footer h3{
+	font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+}
+
+.pag-11{
+	width: 100%;
+	height: 638px;
+	padding: 70px 0;
+	border-bottom: 1px solid black;	
+	background:  rgba(255, 246, 215, 1);
+}
+
+.pag-11 h1{
+	width: 550px;
+	height: 124px;
+	font-weight: 400;
+	font-size: 48px;
+	margin: 0 auto 20px auto;
+	text-align: center;
+	line-height: 1.3;
+	font-family: 'windsor_bt', sans-serif;
+}
+
+.pag-11 p{
+	width: 500px;
+	height: 20px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.3;
+	text-align: center;
+	font-family: "Plus Jakarta Sans", sans-serif;
+	margin: 0 auto;
+}
+
+.container-pg11{
+	width: 1000px;
+	height: 395px;
+	margin: 70px auto 0 auto;
+	overflow: hidden;
+	background:  rgba(255, 246, 215, 1);
+	display: grid;
+	grid-gap: 16px;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+
+.block-1:nth-child(1){
+	grid-column: 1 / 3;
+	grid-row: 1 / 3;
+}
+
+.block-1{
+	position: relative;
+	border-radius: 14px;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.grid-hover{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	background: rgba(0, 0, 0, 0.5);
+  transition: opacity .2s ease-in-out;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.grid-hover > img{
+	width: 50px;
+	height: 50px;
+	
+}
+
+.block-1:hover .grid-hover{
+	opacity: 1;
+}
+
+.pag-12{
+	width: 100%;
+	height: 676px;
+	background: rgba(255, 246, 215, 1);
+
+	display: flex;
+	/*flex-wrap: wrap;*/
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+}
+
+.conatiner-pg12{
+  min-width: 1316.5px;
+  height: 224px;
+  margin-top: 50px;
+  display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.paragraph-container{
+	width: 375px;
+	height: 214px;
+}
+
+.paragraph-container p{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 150%;
+	font-family: Plus Jakarta Sans, sans-serif;
+}
+
+.navbar-pg12{
+	max-width: 441px;
+	width: auto;
+	height: 139px;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+}
+
+
+
+.nav-1{
+	width: 136px;
+	min-width:  125px;
+	text-align: center;
+}
+
+.navbar-pg12 h1{
+	min-width: 136px;
+	width: auto;
+	min-height: 22px;
+	height: auto;
+	font-weight: 500;
+	font-size: 20px;	
+	line-height: 170%;
+	font-family: Plus Jakarta Sans, sans-serif;
+	color: rgba(31, 18, 211, 1);
+
+}
+
+.navbar-pg12 p{
+	width: 136px;
+	height: 22px;
+	font-weight: 500;
+	font-size: 16px;	
+	margin-top: 12px;
+	font-family: Plus Jakarta Sans, sans-serif;
+	cursor: pointer;
+}
+
+.navbar-pg12 p:hover{
+	text-decoration: underline;
+}
+
+.search-bar{
+	width: 370px;
+	height: 187px;
+	padding: 5px;
+	box-sizing: border-box;
+	margin-left: 60px;
+}
+
+.search-bar p{
+	width: 351;
+	height: 34px;
+	font-weight: 500;
+	font-size: 18px;
+	margin-bottom: 35px;
+	font-family: Plus Jakarta Sans, sans-serif;
+}
+
+.search-bar input{
+	width: 98%;
+	height: 50px;
+	border-radius: 10px;
+	margin: 0 auto;
+	border: none;
+	padding: 15px;
+	box-sizing: border-box;
+	cursor: pointer;
+	font-size: 18px;
+	font-family: Plus Jakarta Sans, sans-serif;
+	outline: none;
+}
+
+::placeholder{
+	font-family: Plus Jakarta Sans, sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: lightgray;
+}
+
+.search-bar button{
+	width: 351px;
+	height: 50px;
+	border-radius: 10px;
+	background: rgba(217, 79, 121, 1);
+	margin-top: 10px;
+	border: none;
+	font-family: 'windsor_bt', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	transition:all .40s ease;
+	cursor: pointer;
+}
+
+.search-bar button:hover{
+  background: rgba(31, 18, 211, 1);
+}
+
+.cotainer2-pag12{
+	width: 1310px;
+	height: 77px;
+	display: flex;
+	gap: 184px;
+	align-items: center;
+}
+
+.block1-pg12{
+	width: 491px;
+	min-height: 60px;
+	height: auto;
+	box-sizing: border-box;
+	display: flex;
+	gap: 88px;
+	align-items: center;
+}
+
+.boock-part1{
+	width: 270px;
+	height: 100%;
+	box-sizing: border-box;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 10px;
+	object-fit: cover;
+}
+
+.boock-part1 img{
+	width: 100%;
+	height: 100%;
+}
+
+.boock-part1 img:nth-child(9) {
+	height: 90%;
+	width: 90%;
+  grid-column: span 2;
+}
+
+.block-part2{
+	width: 136px;
+	height: 32px;
+	box-sizing: border-box;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	grid-gap: 20px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.block-part2 img{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+img[alt="footer-main-logo"]{
+	width: 100%;
+	margin-top: 75px;
+}
+
+
+
+    
+
+      </style>
+	<title>Wonderfur.com.au</title>
+</head>
+<body>
+
+  <div class="header">
+	<div class="header-1">
+		<p>Enjoy Free  shipping Austtralia-Wide On Orders Over$79</p>
+	</div>
+
+	<div class="header-2">
+		<img src="images/wonderfur.png" alt="logo">
+	</div>
+
+    <div class="navbar">
+      <ul>	
+    	<li><a href="#">Shop</a>
+                   
+                   <div class="sub-container">
+                      <div class="nav">
+                        <a href="#">Shop for Dogs</a>
+                        <a href="#">Shop for Cats</a>
+                        <a href="#">Shop for bundles</a>
+                      </div>
+
+                      <div class="box">
+
+                       <div class="part-1"> 
+                        <img src="images/box-2.png" alt="box-2">
+                        <h3>Wonderfur Bites Immune Booster for Dogs</h3>
+                       </div>
+
+                       <div class="part-1"> 
+                        <img src="images/box-2.png" alt="box-2">
+                        <h3>Wonderfur Bites Immune Booster for Dogs</h3>
+                       </div>
+                    
+                       <div class="part-1"> 
+                        <img src="images/box-2.png" alt="box-2">
+                        <h3>Wonderfur Bites Immune Booster for Dogs</h3>
+                       </div>
+
+                        <div class="part-1"> 
+                         <img src="images/box-2.png" alt="box-2">
+                         <h3>Wonderfur Bites Immune Booster for Dogs</h3>
+                        </div>
+    
+                       </div>
+
+                        <div class="hv-btn">
+                         <button>View All</button>
+                        </div>
+   
+                     </div>
+
+
+    	</li>
+    	<li><a href="#">About Us</a></li>
+    	<li><a href="#">Pet Accessories</a></li>
+    	<li><a href="#">Try a sample</a></li>
+    	<li><a href="#">Blog</a></li>
+    	<li><a href="#">Supplements</a></li>
+      </ul>	
+    </div>
+
+    <div class="header-3">
+    	<img src="images/country.png" alt="country" class="p-c">
+    	<img src="images/phone.png" alt="Phone">
+    	<img src="images/search.png" alt="search">
+    	<img src="images/shoping.png" alt=""shoping>   	
+    </div>
+
+</div>
+
+<div class="container">
+  
+  <div class="paragraph">	
+	<h1>I recommend <br> Wonderfur to Every Dog <br> owner; science shows its <br> works.</h1>
+  </div>
+
+  <div class="lins">
+  	<ul>
+  		<li>Star of the show "New Lash On Life" on <strong>Stan</strong></li>
+  		<li>Best selling Aurthor And Global lnnovator in pet  Behavor and Wellness</li>
+  	</ul>
+  </div>
+
+
+
+<div class="btn">
+	<button><h2>Shop now</h2></button>
+	<img src="images/button.png" alt="button">
+</div>
+
+ <div class="images">
+ 	<img src="images/Dog.png" alt="girl">
+ </div>
+
+ <div class="images-2">
+ 	<img src="images/box-3.png" alt="girl">
+ </div>
+
+<div class="footer">
+	<div class="ftr-1">
+		<img src="images/star.png" alt="star">
+		<h2>Veterinarian Endorsed</h2>
+	</div>
+
+	<div class="ftr-1">
+		<img src="images/star.png" alt="star">
+		<h2>Veterinarian Endorsed</h2>
+	</div>
+
+	<div class="ftr-1">
+		<img src="images/star.png" alt="star">
+		<h2>Veterinarian Endorsed</h2>
+	</div>
+
+	<div class="ftr-1">
+		<img src="images/star.png" alt="star">
+		<h2>Veterinarian Endorsed</h2>
+	</div>
+
+
+</div>
+
+</div>
+
+
+<div class="pag-2">
+
+	<div class="pg-titel">
+		<h2>Show them You care with <br> supplements that rady work.</h2>
+       
+       <div class="pg-btn">	
+		     <a href="#"><p>For Gogs</p></a>
+		     <a href="#"><p>For Cats</p></a>
+       </div>
+	</div>
+
+	<div class="pg-box">
+		<div class="pg-1">
+			<div class="pg-pic">
+				<img src="images/box-4.png" alt="box-4">
+				<h3><img src="images/tick-2.png" alt="">Wallness</h3>
+				<h3><img src="images/tick-2.png" alt="">Lmmunity</h3>
+				<h3><img src="images/tick-2.png" alt="">Gut Health</h3>
+			</div>
+
+			<div class="pg-data">
+				<h2>Immune Boster</h2>
+				<p>2 lines of product description, product <br> description</p>
+				<img src="images/5-star.png" alt="5-star">
+				<h1>$29.99</h1>
+				<button><h3>Shop Now</h3></button>
+			</div>
+        </div>
+
+		<div class="pg-1">
+			<div class="pg-pic">
+				<img src="images/box-4.png" alt="box-4">
+				<h3><img src="images/tick-2.png" alt="">Wallness</h3>
+				<h3><img src="images/tick-2.png" alt="">Lmmunity</h3>
+				<h3><img src="images/tick-2.png" alt="">Gut Health</h3>
+			</div>
+
+			<div class="pg-data">
+				<h2>Immune Boster</h2>
+				<p>2 lines of product description, product <br> description</p>
+				<img src="images/5-star.png" alt="5-star">
+				<h1>$29.99</h1>
+				<button><h3>Shop Now</h3></button>
+			</div>
+		</div>
+
+		<div class="pg-1">
+			<div class="pg-pic">
+				<img src="images/box-4.png" alt="box-4">
+				<h3><img src="images/tick-2.png" alt="">Wallness</h3>
+				<h3><img src="images/tick-2.png" alt="">Lmmunity</h3>
+				<h3><img src="images/tick-2.png" alt="">Gut Health</h3>
+			</div>
+
+			<div class="pg-data">
+				<h2>Immune Boster</h2>
+				<p>2 lines of product description, product <br> description</p>
+				<img src="images/5-star.png" alt="5-star">
+				<h1>$29.99</h1>
+				<button><h3>Shop Now</h3></button>
+			</div>
+		</div>
+
+	</div>
+ 
+	<button class="pg-button">SHOP OUR BESTSELLERS</button>
+ 	
+</div>
+ 
+
+ <div class="pg-3">
+	<div class="pg-3-container">
+
+		<div class="pic-man3">
+			<img src="images/Dog-2.png" alt="">
+		</div>
+
+		<div class="titel-pg3">
+			<h1>The Wonderfur way</h1>
+			<p>Most supplements in the market are packed with fillers, inferior <br>ingredients and deceptive labels. At Wonderfur,  we do things <br> differently.</p>
+		</div>		
+	</div>
+
+  <div class="befor-pg3">
+
+   <div class="p-h4">
+  	<p> <span class="first-word">01</span> The Wonderfur way</p>
+  	<h4>The Wonderfur Way-We keep pet wellness simple:  clean  ingredients + <br> smart science,  crafted into products pets actually enjoy every day.</h4>	
+  	</div>
+
+   <div class="p-h4">
+  	<p> <span class="first-word">02</span> Vet Approved and Scientifically Formulated</p>
+   </div>
+
+   <div class="p-h4">
+  	<p> <span class="first-word">03</span> All Natural</p>
+   </div>
+   
+   <div class="p-h4">	
+  	<p> <span class="first-word">04</span> Transparently</p>
+   </div>
+   
+   <div class="p-h4">	
+  	<p> <span class="first-word">05</span> Human Grade</p>
+   </div>
+   
+   <div class="p-h4">	
+  	<p> <span class="first-word">06</span> Australian made and owned</p>
+   </div>	
+  </div>
+
+</div>
+
+
+<div class="pag-4">
+
+	<div class="stor-logo">
+		<img src="images/stor-logo.png" alt="stor-logo">
+	</div>
+
+	<div class="container-pg4">
+		<img src="images/girl-1.png" alt="girl-1">
+		<img src="images/girl-2.png" alt="girl-2">
+
+		<div class="paper">
+			<h2>Trusted by Vets, Adored by Pets</h2>
+			<p>"I've worked with thousands of dogs and their owners, and I'm
+      constantly keeping up with the latest scientific research. I frequently recommend products for overall wellness that are high-quality and
+      backed by scientific evidence, such as Wonderfur innovate supplements and functional treats."</p>
+
+      <h3>– Laura Vissaritis</h3>
+      <p class="p-2">Star of the show "New Leash On Life" on <img src="images/stan.png" alt="stan"> </p>
+
+      <span>Best-Selling Author and Global Innovator in Pet Behaviour and Wellness</span>
+		</div>		
+	</div>
+	
+</div>
+
+<div class="pag-5">
+
+  <div class="container-pg5">
+    <h1>How we're leading the pack</h1>
+
+    <div class="tabel-pg5">
+      <table class="compare-table">
+        <tr>
+          <th></th>
+          <td class="data-yes"><img src="images/list-1.png" alt="list-1"></td>
+          <td class="data-no-bdr"><img src="images/list-2.png" alt="list-2"></td>
+        </tr>
+
+        <tr>
+          <th class="table-heading">Clean, Potent Formula</th>
+          <td class="data-yes">Yes</td>
+          <td class="data-no">No</td>
+        </tr>
+
+        <tr>
+          <th class="table-heading">High Omega 3, 6, & 9 Levels</th>
+          <td class="data-yes">Yes</td>
+          <td class="data-no">No</td>
+        </tr>
+
+        <tr>
+          <th class="table-heading">Easy to use</th>
+          <td class="data-yes">Yes</td>
+          <td class="data-no">No</td>
+        </tr>
+
+        <tr>
+          <th class="table-heading">Fast acting absorption</th>
+          <td class="data-yes">Yes</td>
+          <td class="data-no">No</td>
+        </tr>
+
+        <tr>
+          <th class="table-heading">Full-Body Benefits</th>
+          <td class="data-yes">Yes</td>
+          <td class="data-no">No</td>
+        </tr>
+
+        <tr>
+          <th class="table-heading">All Life Stage Friendly</th>
+          <td class="data-yes">Yes</td>
+          <td class="data-no">No</td>
+        </tr>
+
+        <tr>
+          <th class="table-heading">Eco-Friendly Packaging</th>
+          <td class="data-yes">Yes</td>
+          <td class="data-no">No</td>
+        </tr>
+
+        <tr>
+          <th></th>
+          <td class="data-yes"></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="btn-pg5">
+      <button>Try a Sample</button>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="pag-6">
+
+	<div class="container-pg6">
+		<h1>
+			Turn every bowl into a surprise— <br> explore tasty ways to serve our <br>    supplements.
+    </h1>
+
+    <div class="videos">
+
+    	<div class="vd-1">
+    		<div class="p-1">
+    			<video controls>
+    				<source src="videos/food.mp4" type="video/mp4">
+    			</video>
+    		</div>
+    		<div class="p-2">
+    			<p>Sprinkle over food</p>
+    		</div>   		
+    	</div>
+
+    	<div class="vd-1">
+    		<div class="p-1">
+    			<video controls>
+    				<source src="videos/food-2.mp4" type="video/mp4">
+    			</video>
+    		</div>
+    		<div class="p-2">
+    			<p>Use us a treat</p>
+    		</div>   		
+    	</div>
+
+    	<div class="vd-1">
+    		<div class="p-1">
+    			<video controls>
+    				<source src="videos/food-3.mp4" type="video/mp4">
+    			</video>
+    		</div>
+    		<div class="p-2">
+    			<p>Drizzle over meals</p>
+    		</div>   		
+    	</div>
+
+    	<div class="vd-1">
+    		<div class="p-1">
+    			<video controls>
+    				<source src="videos/food-4.mp4" type="video/mp4">
+    			</video>
+    		</div>
+    		<div class="p-2">
+    			<p>Spread on leckmat</p>
+    		</div>   		
+    	</div>
+
+    </div>
+
+	</div>
+	
+</div> 
+
+<div class="pag-7">
+	<div class="container-pg7">
+		<div class="titels-pg7">
+			<h2>Why Wonderfur?</h2>
+			<p>At Wonderfur, we're more than a brand. Our mission is simple: to create science-backed, functional treats and   <br> supplements that elevate your pet's health, happiness, and longevity. Harnessing the power  of nature and cutting-edge <br> science, we craft innovative, vet-formulated  products that go beyond the ordinary.  Because every wag, purr,  and playful  bounce <br> we're more than we're more than matters.</p>
+		</div>
+
+		<div class="logo-pg7">
+
+		 <div class="p-img">
+		 	 <img src="images/image-4.png" alt="">
+		 	 <p>Vet-Endorsed <br> and <br>Science-Backed</p>
+		 </div>
+
+		 <div class="p-img">
+		 	 <img src="images/image-6.png" alt="">
+		 	 <p>100% Natural and 
+		 	 	<br> Human- <br>
+        Grade Ingredients</p>
+		 </div>
+
+		 		 <div class="p-img">
+		 	 <img src="images/image-12.png" alt="">
+		 	 <p>Supports Multiple
+		 	  <br> Health <br>
+        Benefits for dogs <br> and cats
+      </p>
+		 </div>
+
+		 <div class="p-img">
+		 	 <img src="images/imag-13.png" alt="">
+		 	 <p>Proudly <br> Australian- <br>
+        made and owned</p>
+		 </div>
+
+		 <div class="p-img">
+		 	 <img src="images/image-14.png" alt="">
+		 	 <p>Palatable and <br> Loved by Pets</p>
+		 </div>
+
+		 <div class="p-img">
+		 	 <img src="images/image-15.png" alt="">
+		 	 <p>14–Day <br> Satisfaction <br>Guarantee</p>
+		 </div>
+
+	</div>
+		
+	</div>
+	
+</div>
+
+<div class="pag-8">
+	<h2>Wonderfur Works Wonders</h2>
+
+	<div class="container-pg8">
+		<div class="data-pg8">
+			<img src="images/Group-21.png" alt="">
+			<p>Overall Well-being</p>
+		</div>
+
+		<div class="data-pg8">
+			<img src="../Group-21.png" alt="">
+			<p>Immunity</p>
+		</div>
+
+		<div class="data-pg8">
+			<img src="images/Group21-a.png" alt="">
+			<p>Bladder Health</p>
+		</div>
+
+		<div class="data-pg8">
+			<img src="images/Group-22.png" alt="">
+			<p>Joint and hip</p>
+		</div>
+
+		<div class="data-pg8">
+			<img src="images/Group-23.png" alt="">
+			<p>Overall Well-being</p>
+		</div>
+
+		<div class="data-pg8">
+			<img src="images/Group-24.png" alt="">
+			<p>Oral and Teeth</p>
+		</div>
+
+		<div class="data-pg8">
+			<img src="images/Group-25.png" alt="">
+			<p>Skin and coat</p>
+		</div>
+
+		<div class="data-pg8">
+			<img src="images/Group-26.png" alt="">
+			<p>Joint and hip</p>
+		</div>
+
+    <div class="button-pg8">
+    	<a href="#">Get Started</a>
+    </div>
+		
+	</div>
+</div>
+
+<div class="pag-9">
+	<h2>Shop By Concern</h2>
+
+	<div class="navbar-pg9">
+		<a href="#">Gut health + Poop</a>
+		<a href="#">Skin + Coat</a>
+		<a href="#">Mobility</a>
+		<a href="#">Bladder</a>
+		<a href="#">Anxiety</a>
+		<a href="#">Picky eaters</a>
+		<a href="#">Everyday wellness</a>
+	</div>
+
+	<div class="data-pg9">
+
+  
+  <div class="block-pg9">
+    <div class="hover-pick">
+     <img src="images/Australian_made.png" alt="Rectangle-4" class="man-pick">
+      <img src="images/Rectangle-4.png" alt="" class="hover-img">
+    </div>
+    <div class="block-data">
+      <h3>Wonderfur Bites Immune...</h3>
+      <p>Excepteur sint occaecat cupidatat proident officia deserunt mollit anim cupidatat laborum.</p>
+      <h2>$29.99 AUD</h2>
+      <img src="images/Group-8.png" alt="Group-8">
+    </div>
+  </div>
+
+  <!-- 2nd product -->
+  <div class="block-pg9">
+    <div class="hover-pick">
+      <img src="images/Australian_made.png" alt="Rectangle-4" class="man-pick">
+      <img src="images/Rectangle-4.png" alt="" class="hover-img">
+    </div>
+    <div class="block-data">
+      <h3>Wonderfur Bites Immune...</h3>
+      <p>Excepteur sint occaecat cupidatat proident officia deserunt mollit anim cupidatat laborum.</p>
+      <h2>$29.99 AUD</h2>
+      <img src="images/Group-8.png" alt="Group-8">
+    </div>
+  </div>
+
+    <!-- 3nd product -->
+  <div class="block-pg9">
+    <div class="hover-pick">
+      <img src="images/Australian_made.png" alt="Rectangle-4" class="man-pick">
+      <img src="images/Rectangle-4.png" alt="" class="hover-img">
+    </div>
+    <div class="block-data">
+      <h3>Wonderfur Bites Immune...</h3>
+      <p>Excepteur sint occaecat cupidatat proident officia deserunt mollit anim cupidatat laborum.</p>
+      <h2>$29.99 AUD</h2>
+      <img src="images/Group-8.png" alt="Group-8">
+    </div>
+  </div>
+   
+</div>
+
+  <div class="button"> 
+   <a href="#">View All</a>
+  </div>    
+	
+</div>
+
+<div class="pag-10">
+	<img src="images/5-star.png" alt="5-star">
+	<h2>Wagging Tails All Around</h2>
+	<p>Reviews from genuine  loving customers</p>
+
+	<div class="conatiner-pg10">
+		 <!-- 1st-product -->
+		<div class="block-pg10">
+			<img src="images/dog-21.png" alt="dog-21">
+			<p>Toby, our picky eater, is usually hesitant about diet changes, but this beef bone broth has become his new favorite. Not only does it enhance his appetite, the nutrients also support his overall health. The absence of any artificial ingredients gives me peace of mind. It's so nice to see Toby enjoy his meals!
+      </p>
+			<h3>– Dr Amelia Tay</h3>      
+		</div>
+      <!-- 2end-product -->
+		<div class="block2-pg10">
+			<img src="images/dog22.png" alt="dog-22">
+			<p>Bella, the energetic puppy, loves her new salmon oil supplement. It not only boosts her coat's shine, but it also provides essential fatty acids that promote healthy skin. 
+      </p>
+      <h3>– Dr Nathan Liu</h3>
+		</div>
+
+		<!-- 3erd-product -->
+		<div class="block3-pg10">
+			<img src="images/dog23.png" alt="">
+			<p>Max, the older dog, has been struggling with joint issues, but the addition of glucosamine in his diet has made a remarkable difference. He's now able to move more freely and enjoys his walks much more. It's heartwarming to see him regain his playful spirit!
+      </p>
+      <h3>– Dr Sarah Kim</h3>
+		</div>
+		
+	</div>
+
+	<div class="pg10-footer">
+		<h3>Excellent</h3>
+		<img src="images/Frame-703.png" alt="pg10-5star">
+		<img src="images/Frame-703.png" alt="pg10-5star">
+		<img src="images/Frame-703.png" alt="pg10-5star">
+		<img src="images/Frame-703.png" alt="pg10-5star">
+		<img src="images/Frame-703.png" alt="pg10-5star">
+		<h3>See reviews on Judge me</h3>
+		
+	</div>
+	
+</div>
+
+<div class="pag-11">
+	<h1>Real pets. Real stories. Real Wonder.</h1>
+	<p>Follow the journey @wonderfurcompany</p>
+
+  <div class="container-pg11">
+
+     <div class="block-1">
+       <img src="images/cat-7.png" alt="cat-7">
+       <div class="grid-hover">
+          <img src="images/instagram-white.png" alt="">
+       </div>
+     </div>
+
+     <div class="block-1">
+       <img src="images/cat-4.png" alt="cat-7">
+       <div class="grid-hover">
+          <img src="images/instagram-white.png" alt="">
+       </div>
+     </div>
+
+     <div class="block-1">
+       <img src="images/cat-1.png" alt="cat-7">
+       <div class="grid-hover">
+          <img src="images/instagram-white.png" alt="">
+       </div>
+     </div>
+
+     <div class="block-1">
+       <img src="images/cat-3.png" alt="cat-7">
+       <div class="grid-hover">
+          <img src="images/instagram-white.png" alt="">
+       </div>
+     </div>
+
+     <div class="block-1">
+       <img src="images/cat-2.png" alt="cat-7">
+       <div class="grid-hover">
+          <img src="images/instagram-white.png" alt="">
+       </div>
+     </div>
+
+     <div class="block-1">
+       <img src="images/cat-5.png" alt="cat-7">
+       <div class="grid-hover">
+          <img src="images/instagram-white.png" alt="">
+       </div>
+     </div>
+
+     <div class="block-1">
+       <img src="images/cat-4.png" alt="cat-7">
+       <div class="grid-hover">
+          <img src="images/instagram-white.png" alt="">
+       </div>
+     </div>
+
+    
+   </div>
+
+</div>
+
+
+<div class="pag-12">
+  <div class="conatiner-pg12">
+
+    
+    <div class="paragraph-container">
+      <p>
+        Suite #1039,30 Denison Street Bondi Junction, NSW 2022, Australia
+        <br><br>
+        Email: hello@wonderfur.com.au <br>
+        Phone :(02) 8488 1016
+        <br><br>
+        We acknowledge the Traditional Custodians of the lands on which we work and live,
+        and pay our respects to Elders past, present and future.
+      </p>
+    </div>
+
+    
+    <div class="navbar-pg12">
+      <div class="nav-1">  
+        <h1>Shop</h1>
+        <p>Home</p>
+        <p>About Us</p>
+        <p>Blog</p>
+      </div>
+
+      <div class="nav-1">  
+        <h1>Support</h1>
+        <p>Contact us</p>
+        <p>Impact</p>
+        <p>FAQ</p>
+      </div>
+
+      <div class="nav-1">  
+        <h1>Others</h1>
+        <p>Iffiliate program</p>
+        <p>Howlisale <br> inquiries</p>
+      </div>
+    </div>
+
+    
+    <div class="search-bar">
+      <p>Where all paws are welcome. Sign up for news and treats</p>
+
+      <input type="Email" placeholder="Enter your email" title="Please fill in this field" id="subscribe">
+      <button> subscribe </button>
+    </div>
+
+  </div>  
+   
+   <div class="cotainer2-pag12">
+   	 <img src="images/image-73.png" alt="">
+
+   	 <div class="block1-pg12">
+
+   	 	  <div class="boock-part1">
+   	 	  	<img src="images/download-2.png" alt="">
+   	 	  	<img src="images/download-3.png" alt="">
+   	 	  	<img src="images/download-4.png" alt="">
+   	 	  	<img src="images/download-5.png" alt="">
+   	 	  	<img src="images/download-6.png" alt="">
+   	 	  	<img src="images/download-7.png" alt="">
+   	 	  	<img src="images/download.png" alt="">
+   	 	  	<img src="images/download-1.png" alt="">
+   	 	  	<img src="images/image-8.png" alt=""> 	 	  	
+   	 	  </div>
+
+   	 	  <div class="block-part2">
+   	 	  	<img src="images/instagram.png" alt="instagram">
+   	 	  	<img src="images/facebook.png" alt="facebook">
+   	 	  	<img src="images/tiktok.png" alt="tiktok">
+   	 	  </div>
+   	 	
+   	 </div>
+   </div>
+
+  <img src="images/footer-main-logo.webp" alt="footer-main-logo">
+  
+</div>
+
+
+</body>
+</html>
